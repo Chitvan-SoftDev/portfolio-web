@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+*{
+  background-color: #1a191d;
+  color: #fff !important;
+}
+.navBar{
+  position: fixed;
+}
+.nav-item {
+  margin-left: 2rem;
+}
+.nav-item span{
+  font-size: small;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.home{
+  margin-top: 10vh;
+  height: 90vh;
+  .name-element{
+    font-size: 8vw;
+  }
+  .title-element{
+    margin: 1rem;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  p{
+    max-width: 30rem;
+    margin: auto;
+    margin-top: 4rem;
+  }
+  .html-element{
+    color: grey !important;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.experience{
+  height: 90vh;
+  .title-element{
+    margin: 1rem;
+    text-align: center;
+    font-size: 75px;
   }
-  to {
-    transform: rotate(360deg);
+  .exp-cards{
+    overflow-x: visible;
+  }
+  .card{
+    min-width: 27vw;
+    
+  }
+  .card-title{
+    text-decoration:underline;
+
+  }
+  .card-subtitle span{
+    color: grey !important;
+  }
+}
+.projects {
+  height: 90vh;
+  .title-element{
+    margin: 1rem;
+    text-align: center;
+    font-size: 75px;
+  }
+  .main-card{
+    border: 0 !important;
+    margin: auto;
+    width: 70% !important;
+  }
+  .nav-link{
+    border-radius: 0;
+  }
+  .nav-link.active{
+    background-color: #fff;
+    color: #1a191d !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .experience{
+    .title-element{
+      margin: 1rem;
+      text-align: center;
+      font-size: 75px;
+    }
+    .exp-cards{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .card{
+      min-width: 27rem;
+      margin: auto;
+     
+    }
+    .card-title{
+      text-decoration:underline;
+  
+    }
+    .card-subtitle span{
+      color: grey !important;
+    }
   }
 }
