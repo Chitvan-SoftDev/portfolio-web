@@ -1,0 +1,67 @@
+.home {
+    margin-top: 10vh;
+    height: 90vh;
+
+    .name-element {
+        font-size: 8vw;
+    }
+
+    .title-element {
+        margin: 1rem;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    p {
+        max-width: 30rem;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .html-element {
+        color: grey !important;
+    }
+
+    .container_mouse {
+        margin-top: 20vh;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 2rem;
+        cursor: pointer;
+    }
+
+    .container_mouse .mouse-btn {
+        margin: 10px auto;
+        width: 40px;
+        height: 80px;
+        border: 1px solid white;
+        border-radius: 30px;
+        display: flex;
+    }
+
+    .container_mouse .mouse-btn .mouse-scroll {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(170deg, #b7f, #b7f);
+        border-radius: 50%;
+        margin: auto;
+        animation: scrolling 1s linear infinite;
+    }
+
+
+}
+
+@keyframes scrolling {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+}

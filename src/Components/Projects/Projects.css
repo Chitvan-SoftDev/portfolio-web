@@ -1,0 +1,36 @@
+.projects{
+    height: 90vh;
+    .title-element{
+        margin: 1rem;
+        text-align: center;
+        font-size: 75px;
+    }
+    .main-card{
+        border: 0 !important;
+        margin: auto;
+        width: 70% !important;
+    }
+    .nav-link{
+        border-radius: 0;
+    }
+    /* .nav-link.active{
+        background-color: #fff;
+        color: #1a191d !important;
+    } */
+    .nav-item{
+        margin-left: 0;
+    }
+    .nav-link.active {
+        background-color: transparent;
+        color: #66d9ed !important;
+    }
+
+}
+.project-card{
+    cursor: pointer;
+    .show-project-button{
+        background-color: #9b37ff;
+        border-radius: 3px;
+        border: 0;
+    }
+}

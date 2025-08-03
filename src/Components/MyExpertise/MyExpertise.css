@@ -1,0 +1,47 @@
+.my-expertise{
+  height: 90vh;
+  .title-element{
+    margin: 1rem;
+    text-align: center;
+    font-size: 75px;
+  }
+  .exp-cards{
+    overflow-x: visible;
+  }
+  .card{
+    min-width: 27vw;
+    
+  }
+  .card-title{
+    text-decoration:underline;
+
+  }
+  .card-subtitle span{
+    color: grey !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .my-expertise{
+    .title-element{
+      margin: 1rem;
+      text-align: center;
+      font-size: 75px;
+    }
+    .exp-cards{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .card{
+      min-width: 27rem;
+      margin: auto;
+     
+    }
+    .card-title{
+      text-decoration:underline;
+  
+    }
+    .card-subtitle span{
+      color: grey !important;
+    }
+  }
+}

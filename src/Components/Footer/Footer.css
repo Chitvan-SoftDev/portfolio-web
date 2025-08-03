@@ -1,0 +1,32 @@
+.footer{
+    height: 20rem;
+    background-color: #0e0e0e;
+
+    * {
+        background-color: #0e0e0e;
+    }
+    .container{
+        min-height: 100%;
+        min-width: 100%;
+    display: flex; /* Make the container a flex container */
+    flex-direction: column; /* Stack children (like .row) vertically */
+        margin: 0;
+    }
+    .row{
+        flex-grow: 1;
+        align-items: center;
+        border: 1px solid #ffffff1c;
+    }
+    .demographic-details>*{
+        color: #66d9ed !important;
+    }
+    .social-links > svg> path{
+        /* color: #66d9ed !important; */
+ 
+        fill: #66d9ed !important;
+
+    }
+    .copyright-text{
+        color: grey !important;
+    }
+}

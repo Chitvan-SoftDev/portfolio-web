@@ -1,12 +1,12 @@
 import React from 'react'
-
-function Experience({ data }) {
+import './MyExpertise.css'
+function MyExpertise({ data }) {
     for(let workEx of data){
         workEx.description=workEx.description.split("\n");
     }
 
     return (
-        <div className='experience'>
+        <div className='my-expertise'>
             <h2 className='title-element'>Work Experience</h2>
             <div className='d-flex flex-lg-row justify-content-center exp-cards'>
                 {
@@ -35,4 +35,4 @@ function Experience({ data }) {
     )
 }
 
-export default Experience
+export default MyExpertise
