@@ -16,25 +16,36 @@ scalable and secure applications.`},
   expertise: [
     {
       title: 'Software Development',
-      description: 'Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.',
+      description: 'A strong command of Object-Oriented Programming (OOP) and Data Structures & Algorithms (DSA), applied to solve complex problems efficiently.',
       icon: faDisplay,
     },
     {
-      title: 'Frontend Dev React, NextJS',
-      description: 'Passionate about UI/UX. Over 5 years of development experience in HTML, CSS, JS, React and NextJS frameworks.',
+      title: 'Frontend Dev',
+      description: 'Expertise in building modern, responsive, and intuitive user interfaces with Angular, React, and TypeScript.',
       icon: faReact,
 
     },
     {
-      title: 'Flutter Dev Android, iOS',
-      description: 'Skilled in developing hybrid mobile apps and cross-platform solutions using the Flutter framework.',
+      title: 'Backend Dev',
+      description: 'Architecting and maintaining high-performance RESTful APIs and managing scalable database solutions using Node.js, Python, and other technologies.',
       icon: faNode,
     },
   ],
-    work_ex: [{
+    work_ex: [
+    {
+    company_name: "Nour Beauty",
+    role: "Full Stack Developer",
+    tenure: "May 2024 - Present",
+    description: `Leveraged Angular, HTML, CSS, TypeScript and JavaScript to construct a single-page application (SPA) for a smooth user experience.Developed and maintained high-performance, RESTful backend APIs utilizing NodeJS and AWS DynamoDB, reducing response times by 30%.Collaborated with Java, Spring and PostgreSQL to build a scalable and secure backend infrastructure.`,
+    job_location: 'New Delhi, Delhi',
+    company_web: 'https://www.akalinfo.com/',
+    image: intelLogo,
+    skills: ['Angular', 'HTML', 'CSS', 'TypeScript', 'JavaScript', 'Node.js', 'AWS DynamoDB', 'Java', 'Spring', 'PostgreSQL'],
+  },
+      {
     company_name: "Akal Information Systems Ltd",
     role: "Software Developer",
-    tenure: "July 2023 - Present",
+    tenure: "July 2023 - May 2024",
     description: `Leveraged Angular, HTML, CSS, TypeScript and JavaScript to construct a single-page application (SPA) for a smooth user experience.Developed and maintained high-performance, RESTful backend APIs utilizing NodeJS and AWS DynamoDB, reducing response times by 30%.Collaborated with Java, Spring and PostgreSQL to build a scalable and secure backend infrastructure.`,
     job_location: 'New Delhi, Delhi',
     company_web: 'https://www.akalinfo.com/',
@@ -63,7 +74,15 @@ scalable and secure applications.`},
     skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'HTML', 'CSS', 'JavaScript'],
 
   }],
-  projects: [{
+  projects: [
+    {
+    title: "NOUR",
+    company_name: "Nour Beauty",
+    description: "Developed a cutting-edge beauty e-commerce platform using Angular for the front-end, creating intuitive and visually appealing user interfaces for a seamless shopping experience. The back-end, powered by Node.js and SQL, provided a robust and scalable infrastructure for managing product data, user accounts, and order processing.",
+    image: ticaLogo,
+    url: "https://shop.tica.nl/"
+  },
+    {
     title: "TICA",
     company_name: "Akal Information Systems Ltd",
     description: "Developed an e-commerce website (TICA) from scratch, leveraging Angular, HTML, CSS, and TypeScript for an engaging user experience, coupled with NodeJS and AWS for a scalable and secure backend.",
