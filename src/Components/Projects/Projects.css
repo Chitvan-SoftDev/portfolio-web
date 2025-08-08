@@ -1,9 +1,10 @@
 .projects{
-    height: 90vh;
+    /* height: 90vh; */
+    margin-bottom: 20vh;
     .title-element{
-        margin: 1rem;
+        margin: 1.5rem;
         text-align: center;
-        font-size: 75px;
+        font-size: 4.688rem;
     }
     .main-card{
         border: 0 !important;
@@ -12,6 +13,8 @@
     }
     .nav-link{
         border-radius: 0;
+        padding: 0%;
+        padding-right: 1rem;
     }
     /* .nav-link.active{
         background-color: #fff;
@@ -28,9 +31,26 @@
 }
 .project-card{
     cursor: pointer;
+    flex-wrap: wrap;
     .show-project-button{
         background-color: #9b37ff;
         border-radius: 3px;
         border: 0;
     }
+}
+@media screen and (max-width: 575px) {
+
+  .projects{
+    margin-bottom: 10vh;
+    .title-element{
+      font-size: 4rem;
+    }
+    .main-card{
+        width: 85% !important;
+    }
+    .project-card-wrapper{
+        /* min-width: 80vw; */
+        place-self: center;
+    }
+  }
 }

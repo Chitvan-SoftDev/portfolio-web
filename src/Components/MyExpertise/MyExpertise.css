@@ -1,15 +1,22 @@
 .my-expertise{
-  height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+  /* height: 90vh; */
+  margin-bottom: 40vh;
   .title-element{
-    margin: 1rem;
+    margin: 1.5rem;
     text-align: center;
-    font-size: 75px;
+    font-size: 4.688rem;
   }
   .exp-cards{
     overflow-x: visible;
+    flex-wrap: wrap;
+    /* justify-self: center;
+    max-width: 20vw; */
   }
   .card{
-    min-width: 27vw;
+    min-width: 20vw;
+    /* max-width: 30vw; */
     
   }
   .card-title{
@@ -19,29 +26,27 @@
   .card-subtitle span{
     color: grey !important;
   }
+  .card-body{
+    padding: 40px 30px;
+  }
+  .box{
+    flex-grow: 1;
+    font-size: 1.2rem;
+  }
 }
-@media (max-width: 991.98px) {
+@media screen and (max-width: 575px) {
+
   .my-expertise{
-    .title-element{
-      margin: 1rem;
-      text-align: center;
-      font-size: 75px;
-    }
+    margin-bottom: 10vh;
+
     .exp-cards{
-      display: flex !important;
-      flex-direction: column !important;
+      place-self: center;
     }
     .card{
-      min-width: 27rem;
-      margin: auto;
-     
+      min-width: 85vw;
     }
-    .card-title{
-      text-decoration:underline;
-  
-    }
-    .card-subtitle span{
-      color: grey !important;
+    .title-element{
+      font-size: 4rem;
     }
   }
 }

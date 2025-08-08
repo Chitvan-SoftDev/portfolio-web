@@ -1,0 +1,23 @@
+.navBar{
+  position: fixed;
+}
+.nav-item {
+  margin-left: 2rem;
+}
+.nav-item span{
+  font-size: small;
+}
+.nav-link{
+    cursor: pointer !important;
+    transition: color 0.3s ease;
+}
+.navbar-nav > .nav-item >.nav-link:hover{
+    color: #fff !important;
+    span{
+    color: #fff !important;
+
+    }
+}
+.navbar-nav:hover .nav-link, .navbar-nav:hover .nav-link span{
+    color: grey !important;
+}

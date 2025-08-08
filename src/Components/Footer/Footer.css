@@ -20,6 +20,10 @@
     .demographic-details>*{
         color: #66d9ed !important;
     }
+    .social-links{
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
     .social-links > svg> path{
         /* color: #66d9ed !important; */
  

@@ -1,32 +1,41 @@
 import ppvfraLogo from './assets/ppvfra.png'
 import ticaLogo from './assets/tica.png'
 import intelLogo from './assets/intel.png'
+import { faDisplay } from '@fortawesome/free-solid-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faNode } from '@fortawesome/free-brands-svg-icons';
+
+
 
 export const DATA = {
   home: {
-    designation: "FULL-STACK SOFTWARE DEVELOPER",
+    designation: "FULL-STACK DEVELOPER",
     introduction: `Highly motivated Full Stack Developer with 3 years of experience building dynamic web applications. Proficient in a diverse tech stack.
 Possesses a strong understanding of both frontend and backend development principles. Proven ability to design, develop, and maintain
 scalable and secure applications.`},
-  Expertise: [
+  expertise: [
     {
       title: 'Software Development',
-      Description: 'Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.'
+      description: 'Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.',
+      icon: faDisplay,
     },
     {
       title: 'Frontend Dev React, NextJS',
-      Description: 'Passionate about UI/UX. Over 5 years of development experience in HTML, CSS, JS, React and NextJS frameworks.'
+      description: 'Passionate about UI/UX. Over 5 years of development experience in HTML, CSS, JS, React and NextJS frameworks.',
+      icon: faReact,
+
     },
     {
       title: 'Flutter Dev Android, iOS',
-      Description: 'Skilled in developing hybrid mobile apps and cross-platform solutions using the Flutter framework.'
+      description: 'Skilled in developing hybrid mobile apps and cross-platform solutions using the Flutter framework.',
+      icon: faNode,
     },
   ],
     work_ex: [{
     company_name: "Akal Information Systems Ltd",
     role: "Software Developer",
     tenure: "July 2023 - Present",
-    description: `Leveraged Angular, HTML, CSS, TypeScript and JavaScript to construct a single-page application (SPA) for a smooth user experience.\nDeveloped and maintained high-performance, RESTful backend APIs utilizing NodeJS and AWS DynamoDB, reducing response times by 30%.\nCollaborated with Java, Spring and PostgreSQL to build a scalable and secure backend infrastructure.`,
+    description: `Leveraged Angular, HTML, CSS, TypeScript and JavaScript to construct a single-page application (SPA) for a smooth user experience.Developed and maintained high-performance, RESTful backend APIs utilizing NodeJS and AWS DynamoDB, reducing response times by 30%.Collaborated with Java, Spring and PostgreSQL to build a scalable and secure backend infrastructure.`,
     job_location: 'New Delhi, Delhi',
     company_web: 'https://www.akalinfo.com/',
     image: intelLogo,
@@ -36,7 +45,7 @@ scalable and secure applications.`},
     company_name: "Intel Corporation",
     role: "Software Developer Intern",
     tenure: "August 2022 – June 2023",
-    description: `Designed interactive user interfaces (UI) with Angular, HTML, CSS, TypeScript and JavaScript to facilitate intuitive user interaction with automation tools.\nDeveloped backend functionalities utilizing Python, Django, and MongoDB for efficient data manipulation and storage, achieving a significant improvement in data processing speed.`,
+    description: `Designed interactive user interfaces (UI) with Angular, HTML, CSS, TypeScript and JavaScript to facilitate intuitive user interaction with automation tools.Developed backend functionalities utilizing Python, Django, and MongoDB for efficient data manipulation and storage, achieving a significant improvement in data processing speed.`,
     job_location: 'Remote',
     company_web: 'https://www.intel.com/content/www/us/en/homepage.html',
     image: intelLogo,
@@ -47,7 +56,7 @@ scalable and secure applications.`},
     company_name: "Pepcoding Education (OPC) Private Limited ",
     role: "Web Developer Intern",
     tenure: "November 2021 – May2022",
-    description: `Contributed to the optimization and functionality of the official Pepcoding website (NADOS), utilizing the MERN stack (MongoDB, Express.js, React, Node.js).\nDeveloped backend functionalities utilizing the MERN stack for efficient data processing and storage.`,
+    description: `Contributed to the optimization and functionality of the official Pepcoding website (NADOS), utilizing the MERN stack (MongoDB, Express.js, React, Node.js).Developed backend functionalities utilizing the MERN stack for efficient data processing and storage.`,
     job_location: 'Noida',
     company_web: 'https://www.intel.com/content/www/us/en/homepage.html',
     image: intelLogo,

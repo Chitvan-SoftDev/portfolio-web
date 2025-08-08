@@ -32,12 +32,12 @@ function Projects({ data }) {
     };
 
     return (
-        <div className='projects'>
-            <h2 className='title-element'>Projects</h2>
-            <div className="card text-center main-card">
-                <div className="card-header border-bottom-0 p-0">
-                    <ul className="nav nav-pills card-header-pills justify-content-left"> 
-                        <li className="nav-item ms-3"> <a className='nav-link'> Filter By </a></li>
+        <div className='projects' id='projects'>
+            <h2 className='title-element'>My work</h2>
+            <div className=" text-center main-card">
+                <div className=" border-bottom-0 p-0">
+                    <ul className="nav nav-pills  justify-content-left pb-5"> 
+                        <li className="nav-item ms-md-4"> <a className='nav-link'> Filter By </a></li>
                         <li className="nav-item">
                             <a
                                 className={`nav-link ${activeTab === 'All' ? 'active' : ''}`}
@@ -68,7 +68,7 @@ function Projects({ data }) {
                         ))}
                     </ul>
                 </div>
-                <div className='row p-4'>
+                <div className='row p-md-4 project-card-wrapper'>
                     {filteredData.map((ele, index) => (
                         <ProjectCard
                             key={ele.id || index} // Use a unique ID if available, otherwise index

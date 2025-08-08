@@ -7,7 +7,7 @@ function ProjectCard({ project, isHovered, onMouseEnter, onMouseLeave }) {
     const imageStyle = {
         width: '100%',
         height: '100%',
-        objectFit: 'cover',
+        objectFit: 'contain',
         transition: 'transform 0.3s ease-in-out',
         // Use the 'isHovered' prop to determine the transform
         transform: isHovered ? 'scale(1.1)' : 'scale(1)',

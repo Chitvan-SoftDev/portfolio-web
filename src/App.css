@@ -4,13 +4,17 @@
    --cursor-color: #66d9ed
 
 }
-.navBar{
-  position: fixed;
+
+.html-element {
+    color: grey !important;
 }
-.nav-item {
-  margin-left: 2rem;
-}
-.nav-item span{
-  font-size: small;
+html {
+    scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 14px; 
+    }
+
+}

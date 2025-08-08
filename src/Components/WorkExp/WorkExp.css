@@ -1,10 +1,11 @@
 .work-exp{
-  height: 90vh;
+  /* height: 90vh; */
   /* width: 100%; */
+  margin-bottom: 20vh;
   .title-element{
-    margin: 1rem;
+    margin: 1.5rem;
     text-align: center;
-    font-size: 75px;
+    font-size: 4.688rem;
   }
   .accordion{
     width: 50vw;
@@ -51,11 +52,10 @@
       border-radius: 5px;
 
     }
-    .job-location, .company-web, .company-desc, .location-url, .company-image, .company-image>img, .skill-list, .skill-list>*{
+    
+    .accordion-body *{
       /* margin-top: 10px; */
       background-color: #241d41;
-
-
     }
     .accordion-body{
       /* margin-top: 10px; */
@@ -80,4 +80,20 @@
     cursor: pointer;
     }
 
+}
+
+
+@media screen and (max-width: 575px) {
+
+  .work-exp{
+    margin-bottom: 10vh;
+    .title-element{
+      font-size: 4rem;
+    }
+    .accordion{
+      width: 85vw;
+      justify-self: center;
+      
+   }
+  }
 }

@@ -5,8 +5,8 @@ import { faLocationDot, faSquareArrowUpRight } from '@fortawesome/free-solid-svg
 
 export default function WorkExp({ data }) {
     return (
-        <div className='work-exp'>
-            <h2 className='title-element'>Experience</h2>
+        <div className='work-exp' id='work-exp'>
+            <h2 className='title-element'>Professional Experience</h2>
 
             <div className="accordion accordion-flush" id="accordionFlushExample">
                 {
@@ -24,7 +24,7 @@ export default function WorkExp({ data }) {
                                 <p className='d-flex justify-content-between w-100 m-0 px-2'>
 
                                     <span>{compData.role} @ {compData.company_name}</span>
-                                    <span>{compData.tenure}</span>
+                                    <span className='d-md-block d-none'>{compData.tenure}</span>
                                 </p>
 
                             </button>
@@ -35,14 +35,14 @@ export default function WorkExp({ data }) {
                             aria-labelledby={`flush-heading${index}`}
                             data-bs-parent="#accordionFlushExample"
                         >
-                            <div className="accordion-body">
+                            <div className="accordion-body d-md-block d-none">
                                 <div className='d-flex'>
                                     <div >
                                         <div className='d-flex location-url'>
 
                                             <div className='job-location'>
                                                 <FontAwesomeIcon icon={faLocationDot} /> {compData.job_location}
-                                                </div>
+                                            </div>
                                             <a className='company-web ms-2' href={compData.comapany_web}><FontAwesomeIcon icon={faSquareArrowUpRight} /> {compData.company_name}</a>
                                         </div>
                                         <p className='company-desc m-0 py-2'>{compData.description}</p>
@@ -64,7 +64,44 @@ export default function WorkExp({ data }) {
                                 </div>
 
                             </div>
+                        {/* mobile collapsable menu starts */}
+
+                            <div className="accordion-body d-md-none d-block">
+                                <div className='d-flex flex-column'>
+                                    <div className='company-image py-2' style={{ alignContent: 'center' }}>
+                                        <img src={compData.image} width='200px' />
+                                    </div>
+                                    <div className=' py-2'>
+
+
+                                            <div className='job-location'>
+                                                <FontAwesomeIcon icon={faLocationDot} /> {compData.job_location}
+                                            </div>
+                                            <a className='company-web' href={compData.comapany_web}><FontAwesomeIcon icon={faSquareArrowUpRight} /> {compData.company_name}</a>
+
+                                        <p className='company-desc m-0 py-2'>{compData.description}</p>
+                                        <ul className='d-flex skill-list p-0'>
+
+                                            {compData.skills.map((skill, skillIndex) => (
+
+                                                <li key={skillIndex}>
+                                                    {skill}
+                                                </li>
+                                            ))}
+                                        </ul>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        {/* mobile collapsable menu ends */}
+
                         </div>
+
+           
+
                     </div>
                     ))
                 }
