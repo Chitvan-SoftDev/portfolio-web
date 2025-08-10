@@ -13,7 +13,7 @@ function MyExpertise({ data }) {
 
                             <div className="card-body">
                                 <h3 className="card-title d-flex">
-                                    <div className='flex-grow-1 align-content-center '>
+                                    <div className='flex-grow-1 align-content-center' style={{maxWidth:'fit-content'}}>
                                         <FontAwesomeIcon  icon={ele.icon} size='2x' pull='left' />
                                     </div>
                                     <div>{ele.title}</div>

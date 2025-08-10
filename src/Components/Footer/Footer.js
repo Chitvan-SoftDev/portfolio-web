@@ -8,6 +8,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className='footer'>
       <div className='container text-center '>
@@ -24,16 +25,26 @@ export default function Footer() {
             CS
           </div>
           <div className='col-md-4 col-12 social-links d-flex justify-content-center p-4'>
+            <a href='https://in.linkedin.com/in/chitvan-singhal-26550b198' target='_blank'>
+
             <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
+            {/* <a href=''>
+
             <FontAwesomeIcon icon={faInstagram} />
+            </a> */}
+            <a href='https://github.com/Chitvan-SoftDev' target='_blank'>
+
             <FontAwesomeIcon icon={faGithub} />
+            </a>
+
 
           </div>
         </div>
         <div className='row p-5 align-middle'>
 
           <div className='col-12'>
-            <small className='copyright-text'>© 2025 Chitvan Singhal. All rights reserved.</small>
+            <small className='copyright-text'>© {currentYear} Chitvan Singhal. All rights reserved.</small>
           </div>
           
         </div>

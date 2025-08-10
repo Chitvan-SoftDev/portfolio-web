@@ -43,9 +43,22 @@ export default function WorkExp({ data }) {
                                             <div className='job-location'>
                                                 <FontAwesomeIcon icon={faLocationDot} /> {compData.job_location}
                                             </div>
-                                            <a className='company-web ms-2' href={compData.comapany_web}><FontAwesomeIcon icon={faSquareArrowUpRight} /> {compData.company_name}</a>
+                                            <a className='company-web ms-2' href={compData.company_web} target='_blank'><FontAwesomeIcon icon={faSquareArrowUpRight} /> {compData.company_name}</a>
                                         </div>
-                                        <p className='company-desc m-0 py-2'>{compData.description}</p>
+                                        <div className='company-desc m-0 p-2'>
+                                            <ul>
+
+                                                {
+                                                    compData.description.map((ele, ind) => (
+                                                        <li key={ind}>
+                                                            {ele}
+                                                        </li>
+
+                                                    ))
+                                                }
+                                            </ul>
+
+                                        </div>
                                         <ul className='d-flex skill-list p-0'>
 
                                             {compData.skills.map((skill, skillIndex) => (
@@ -64,7 +77,7 @@ export default function WorkExp({ data }) {
                                 </div>
 
                             </div>
-                        {/* mobile collapsable menu starts */}
+                            {/* mobile collapsable menu starts */}
 
                             <div className="accordion-body d-md-none d-block">
                                 <div className='d-flex flex-column'>
@@ -74,12 +87,26 @@ export default function WorkExp({ data }) {
                                     <div className=' py-2'>
 
 
-                                            <div className='job-location'>
-                                                <FontAwesomeIcon icon={faLocationDot} /> {compData.job_location}
-                                            </div>
-                                            <a className='company-web' href={compData.comapany_web}><FontAwesomeIcon icon={faSquareArrowUpRight} /> {compData.company_name}</a>
+                                        <div className='job-location'>
+                                            <FontAwesomeIcon icon={faLocationDot} /> {compData.job_location}
+                                        </div>
+                                        <a className='company-web' href={compData.company_web} target='_blank'><FontAwesomeIcon icon={faSquareArrowUpRight} /> {compData.company_name}</a>
 
-                                        <p className='company-desc m-0 py-2'>{compData.description}</p>
+                                        {/* <p className='company-desc m-0 py-2'>{compData.description}</p> */}
+                                        <div className='company-desc m-0 p-2'>
+                                            <ul>
+
+                                                {
+                                                    compData.description.map((ele, ind) => (
+                                                        <li key={ind}>
+                                                            {ele}
+                                                        </li>
+
+                                                    ))
+                                                }
+                                            </ul>
+
+                                        </div>
                                         <ul className='d-flex skill-list p-0'>
 
                                             {compData.skills.map((skill, skillIndex) => (
@@ -96,11 +123,11 @@ export default function WorkExp({ data }) {
                                 </div>
 
                             </div>
-                        {/* mobile collapsable menu ends */}
+                            {/* mobile collapsable menu ends */}
 
                         </div>
 
-           
+
 
                     </div>
                     ))
