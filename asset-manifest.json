@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-web/static/css/main.b8f352a5.css",
-    "main.js": "/portfolio-web/static/js/main.fdb27fb3.js",
+    "main.css": "/portfolio-web/static/css/main.e2180a83.css",
+    "main.js": "/portfolio-web/static/js/main.87536ecd.js",
     "static/js/453.4280ab34.chunk.js": "/portfolio-web/static/js/453.4280ab34.chunk.js",
     "static/media/PC-logo.png": "/portfolio-web/static/media/PC-logo.bbb02bed4ca07eb7416a.png",
     "static/media/ppvfra.png": "/portfolio-web/static/media/ppvfra.390cfd2ddff9f4197bbc.png",
@@ -9,12 +9,12 @@
     "static/media/intel.png": "/portfolio-web/static/media/intel.c1dd0b8098e1ebd021bb.png",
     "static/media/logo.svg": "/portfolio-web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio-web/index.html",
-    "main.b8f352a5.css.map": "/portfolio-web/static/css/main.b8f352a5.css.map",
-    "main.fdb27fb3.js.map": "/portfolio-web/static/js/main.fdb27fb3.js.map",
+    "main.e2180a83.css.map": "/portfolio-web/static/css/main.e2180a83.css.map",
+    "main.87536ecd.js.map": "/portfolio-web/static/js/main.87536ecd.js.map",
     "453.4280ab34.chunk.js.map": "/portfolio-web/static/js/453.4280ab34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f352a5.css",
-    "static/js/main.fdb27fb3.js"
+    "static/css/main.e2180a83.css",
+    "static/js/main.87536ecd.js"
   ]
 }
