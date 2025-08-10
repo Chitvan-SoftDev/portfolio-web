@@ -14,7 +14,7 @@ function ProjectCard({ project, isHovered, onMouseEnter, onMouseLeave }) {
     };
 
     return (
-        <div className="col-lg-4 col-md-6 col-12 mb-4 project-card">
+        <div className="col mb-4 project-card">
             <div className="card h-100"
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}>

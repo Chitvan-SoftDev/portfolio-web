@@ -68,7 +68,7 @@ function Projects({ data }) {
                         ))}
                     </ul>
                 </div>
-                <div className='row p-md-4 project-card-wrapper'>
+                <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 project-card-wrapper'>
                     {filteredData.map((ele, index) => (
                         <ProjectCard
                             key={ele.id || index} // Use a unique ID if available, otherwise index

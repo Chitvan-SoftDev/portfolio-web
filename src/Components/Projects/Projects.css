@@ -31,7 +31,6 @@
 }
 .project-card{
     cursor: pointer;
-    flex-wrap: wrap;
     .show-project-button{
         background-color: #9b37ff;
         border-radius: 3px;
