@@ -97,7 +97,7 @@ scalable and secure applications.`},
     company_name: "Nour Beauty",
     description: "Developed a cutting-edge beauty e-commerce platform using Angular for the front-end, creating intuitive and visually appealing user interfaces for a seamless shopping experience. The back-end, powered by Node.js and SQL, provided a robust and scalable infrastructure for managing product data, user accounts, and order processing.",
     image: nourLogo,
-    url: "https://shop.tica.nl/"
+    url: "https://www.nour-beauty.com/"
   },
     {
     title: "TICA",
