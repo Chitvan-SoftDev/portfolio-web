@@ -30,12 +30,20 @@
 
 }
 .project-card{
-    cursor: pointer;
+    /* cursor: pointer; */
+    .card-body,.card-body *{
+        background-color: #201f23;
+    }
+    .card{
+        border: 0;
+        border-radius: 5px;
+    }
     .show-project-button{
         background-color: #9b37ff;
         border-radius: 3px;
         border: 0;
     }
+    
 }
 @media screen and (max-width: 575px) {
 

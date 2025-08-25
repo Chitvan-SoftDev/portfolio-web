@@ -2,7 +2,7 @@ import ppvfraLogo from './assets/ppvfra.png'
 import ticaLogo from './assets/tica.png'
 import intelLogo from './assets/intel.png'
 import pcLogo from './assets/PC-logo.png'
-import nourLogo from './assets/nour-logo.jpeg'
+import nourLogo from './assets/nour-logo-dark.png'
 import akalLogo from './assets/akallogo.png'
 
 import { faDisplay } from '@fortawesome/free-solid-svg-icons';
@@ -41,7 +41,7 @@ scalable and secure applications.`},
     role: "Full Stack Developer",
     tenure: "May 2024 - Present",
     description: [
-      "Played a key role in building a scalable, high-performance e-commerce platform from the ground up using PHP (CodeIgniter), Angular, HTML, CSS, JavaScript, Node.js, and MySQL.",
+      "Played a key role in building a scalable, high-performance e-commerce platform from the ground up using PHP (CodeIgniter), React, HTML, CSS, JavaScript, Node.js, and MySQL.",
       "Improved application performance by 20% by optimizing database queries and code.",
       "Developed and implemented secure coding practices to prevent common vulnerabilities.",
       "Managed a dedicated tech agency within a product-based company, overseeing the development and delivery of innovative software solutions."
@@ -49,7 +49,7 @@ scalable and secure applications.`},
     job_location: 'New Delhi, Delhi',
     company_web: 'https://www.nour-beauty.com/',
     image: nourLogo,
-    skills: ['Angular', 'HTML', 'CSS', 'TypeScript', 'JavaScript', 'Node.js', 'AWS DynamoDB', 'Java', 'Spring', 'PostgreSQL'],
+    skills: ['PHP CI', 'React', 'HTML', 'CSS', 'JavaScript', 'Node.js', 'MySQL'],
   },
       {
     company_name: "Akal Information Systems Ltd",

@@ -18,7 +18,7 @@ export default function WorkExp({ data }) {
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target={`#flush-collapse${index}`}
-                                aria-expanded="false"
+                                aria-expanded={index===0?'true':'false'}
                                 aria-controls={`flush-collapse${index}`}
                             >
                                 <p className='d-flex justify-content-between w-100 m-0 px-2'>
@@ -31,7 +31,7 @@ export default function WorkExp({ data }) {
                         </h2>
                         <div
                             id={`flush-collapse${index}`}
-                            className="accordion-collapse collapse"
+                            className= {`accordion-collapse collapse ${index===0?'show':''}`}
                             aria-labelledby={`flush-heading${index}`}
                             data-bs-parent="#accordionFlushExample"
                         >

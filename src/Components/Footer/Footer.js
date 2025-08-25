@@ -22,7 +22,9 @@ export default function Footer() {
 
           </div>
           <div className='col-md-4 col-12 p-4' style={{fontSize:'4rem', fontFamily: 'orpheus-pro'}}>
-            CS
+            <a href='#' className='text-decoration-none'>
+              CS
+              </a>
           </div>
           <div className='col-md-4 col-12 social-links d-flex justify-content-center p-4'>
             <a href='https://in.linkedin.com/in/chitvan-singhal-26550b198' target='_blank'>
