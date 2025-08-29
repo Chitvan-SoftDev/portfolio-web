@@ -14,7 +14,7 @@ import { faNode } from '@fortawesome/free-brands-svg-icons';
 export const DATA = {
   home: {
     designation: "FULL-STACK DEVELOPER",
-    introduction: `Highly motivated Full Stack Developer with 3 years of experience building dynamic web applications. Proficient in a diverse tech stack.
+    introduction: `Highly motivated Full Stack Developer with over 3 years of experience building dynamic web applications. Proficient in a diverse tech stack.
 Possesses a strong understanding of both frontend and backend development principles. Proven ability to design, develop, and maintain
 scalable and secure applications.`},
   expertise: [
@@ -95,7 +95,7 @@ scalable and secure applications.`},
     {
     title: "NOUR",
     company_name: "Nour Beauty",
-    description: "Developed a cutting-edge beauty e-commerce platform using Angular for the front-end, creating intuitive and visually appealing user interfaces for a seamless shopping experience. The back-end, powered by Node.js and SQL, provided a robust and scalable infrastructure for managing product data, user accounts, and order processing.",
+    description: "Developed a cutting-edge beauty e-commerce platform. Leveraged React for a key front-end module and PHP (CodeIgniter) for core functionalities to create an intuitive and visually appealing user interface. The back-end, powered by Node.js and SQL, provided a robust and scalable infrastructure for managing product data, user accounts, and order processing.",
     image: nourLogo,
     url: "https://www.nour-beauty.com/"
   },
