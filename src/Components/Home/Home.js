@@ -6,7 +6,7 @@ function Home({ data }) {
         <div className='home d-flex flex-column'>
             <h1 className='name-element text-center'>Chitvan Singhal</h1>
             <h5 className='title-element text-center'>{data.designation}</h5>
-            <p className='w-md-50 w-75 text-center'>
+            <p className='w-md-50 w-75' style={{textAlign:'justify'}}>
 
                 <span className='html-element float-start'>&lt;p&gt;</span>
                 <br></br>
